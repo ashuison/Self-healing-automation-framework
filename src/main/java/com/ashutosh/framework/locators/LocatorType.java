@@ -1,5 +1,7 @@
 package com.ashutosh.framework.locators;
 
-public class LocatorType {
-
+public enum LocatorType {
+    XPATH,
+    CSS,
+    TEXT
 }
